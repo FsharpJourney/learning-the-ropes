@@ -1,3 +1,5 @@
 **/.ionide/
 **/bin/
 **/obj/
+*.v2
+01 Hello World/.vs/01 Hello World/v16/.suo
