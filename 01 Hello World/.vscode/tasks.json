@@ -1,0 +1,32 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+    {
+        "label": "restore solution",
+        "command": "dotnet",
+        "type": "process",
+        "args": [
+        "restore",
+        "${workspaceFolder}"
+        ],
+        "problemMatcher": "$msCompile"
+    },
+    {
+        "label": "build solution",
+        "command": "dotnet",
+        "type": "process",
+        "args": [
+        "build",
+        "${workspaceFolder}"
+        ],
+        "problemMatcher": "$msCompile",
+        "dependsOn": [
+        "restore solution"
+        ],
+        "group": {
+        "kind": "build",
+        "isDefault": true
+        }
+    }
+    ]
+}

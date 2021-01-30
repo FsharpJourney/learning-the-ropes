@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+    {
+        "name": ".NET Core Launch (console)",
+        "type": "coreclr",
+        "request": "launch",
+        "preLaunchTask": "build solution",
+        "program": "${workspaceFolder}/HelloWorld/bin/Debug/net5.0/HelloWorld.dll",
+        "args": [],
+        "cwd": "${workspaceFolder}",
+        "console": "internalConsole",
+        "stopAtEntry": false,
+        "internalConsoleOptions": "openOnSessionStart"
+    }
+    ]
+}
